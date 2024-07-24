@@ -1,0 +1,23 @@
+Command Line or Terminal:
+Used for controlling the OS to do specific work
+
+Windows: Command Promp/Powershell
+Mac: Bash/ZSH
+Linux Bash
+
+Important Commands:
+1. clear
+2. ls
+3. cd
+4. open/start
+5. mkdir
+6. touch
+7. rm
+8. rm -r
+9. cp
+10.mv
+11.cat
+12.echo
+13.grep: Find specific characters in file
+14.find: Find files in folders
+15.tar: Compression(-czvf) to Extraction(-xzvf) to/from .tar.gz

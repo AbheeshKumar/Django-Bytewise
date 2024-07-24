@@ -1,0 +1,59 @@
+HTTP: HyperText Transfer Protocol
+How User and Server Communicates
+
+HTTPS:
+Data is unreadable/encrypted during transfer
+
+URL: Universal Resource Locator
+
+Headers:
+Information/Metadata that comes with the url
+
+Metadata: 
+Info in key value pairs
+
+Request and Response are also metadata and contains protocols indicating status
+
+Headers are used for
+1. Caching
+2. Authentication eg.cookies. jwt tokens
+3. State Management
+
+Reqest Header: Metadata from Client
+Response Header: Metadata from Server
+Representation Header: Metadata that is encoded/compressed
+Payload: Data to be transferred
+
+CORS Header:
+Determines what headers/metadata are allowed in an project
+
+HTTP Methods:
+GET: Retreive data
+HEAD: Retreives Headers
+OPTIONS: Displays available operations
+TRACE: Loopback test
+DELETE: Remove a resource 
+PUT: Replace resource
+POST: Adds resource
+PATCH: Change part of resource
+
+Status Codes:
+1xx Information
+2xx Success
+3xx Redirection
+4xx Client Error
+5xx Server Error
+
+100 Continue
+102 Processing
+200 OK
+201 Created
+202 Accepted
+307 Temporary Redirect
+308 Permanent Redirect
+400 Bad Request
+401 Unauthorized
+402 Payment Required
+404 Not Found
+500 Internal Server Error
+504 Gateway Time Out
